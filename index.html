@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Desarrollo Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="iniciar-quiz" id="iniciar-quiz">
+            <p>Hola, como estás? Bienvenido a este Quiz</p>
+            <p>Las reglas son las siguientes: </p>
+            <ul>
+                <li>Tienes 10 segundos para responder cada pregunta</li>
+                <li>Solo puedes escoger una opcion y no borrarla</li>
+                <li>Son tan solo 10 preguntas</li>
+                <li>¡Muchísima Suerte!</li>
+            </ul>
+            <button class="btn-iniciar-quiz" onclick="iniciarQuiz()">Comenzar Quiz</button>
+        </div>
+        <div class="quiz-section" id="quiz-section">
+            <div class="question" id="question"></div>
+            <div class="regresiveCounter" id="regresiveCounter">
+            </div>
+            <div class="answers">
+                <button class="btn-answer" id="btn1" onclick="oprimirBoton(0)">Respuesta 1</button>
+                <button class="btn-answer" id="btn2" onclick="oprimirBoton(1)">Respuesta 2</button>
+                <button class="btn-answer" id="btn3" onclick="oprimirBoton(2)">Respuesta 3</button>
+                <button class="btn-answer" id="btn4" onclick="oprimirBoton(3)">Respuesta 4</button>
+            </div>
+            <div class="counter" id="counter"></div>
+        </div>
+        <div class="final-section" id="final-section"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

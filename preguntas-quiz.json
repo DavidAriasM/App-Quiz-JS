@@ -1,0 +1,99 @@
+[{
+        "pregunta": "¿Cuál de estos es un editor de código?",
+        "respuesta": "Notepad++",
+        "incorrecta1": "Word",
+        "incorrecta2": "Figma",
+        "incorrecta3": "Photoshop"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes opciones es un Lenguaje de Estilos en Cascada?",
+        "respuesta": "CSS3",
+        "incorrecta1": "HTML5",
+        "incorrecta2": "VUEJS",
+        "incorrecta3": "BOOTSTRAP"
+    },
+    {
+        "pregunta": "¿Cual de las opciones es un Lenguaje de Programación?",
+        "respuesta": "JavaScript",
+        "incorrecta1": "Sass",
+        "incorrecta2": "React",
+        "incorrecta3": "CSS3"
+    },
+    {
+        "pregunta": "¿Cuál de las opciones es un Lenguaje de Programación para Backend?",
+        "respuesta": "Java",
+        "incorrecta1": "HTML5",
+        "incorrecta2": "AngularJS",
+        "incorrecta3": "CSS3"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes opciones es un framework de JavaScript?",
+        "respuesta": "VueJS",
+        "incorrecta1": "PHP",
+        "incorrecta2": "SASS",
+        "incorrecta3": "AJAX"
+    },
+    {
+        "pregunta": "Son un componente clave del responsive design",
+        "respuesta": "Media Queries",
+        "incorrecta1": "Animation",
+        "incorrecta2": "Box-Shadow",
+        "incorrecta3": "Height"
+    },
+    {
+        "pregunta": "Permite importar reglas desde otras hojas de estilo",
+        "respuesta": "@import",
+        "incorrecta1": "@charset",
+        "incorrecta2": "@namespace",
+        "incorrecta3": "@media"
+    },
+    {
+        "pregunta": "Es un framework CSS utilizado en aplicaciones front-end",
+        "respuesta": "Bootstrap",
+        "incorrecta1": "PHP",
+        "incorrecta2": "@keyframes",
+        "incorrecta3": "Font Awesome"
+    },
+    {
+        "pregunta": "Controla los pasos intermedios en una secuencia de animación CSS",
+        "respuesta": "@keyframes",
+        "incorrecta1": "animation",
+        "incorrecta2": "@media",
+        "incorrecta3": "flex-box"
+    },
+    {
+        "pregunta": "Retorna una cadena representando el código fuente de la función",
+        "respuesta": "toString()",
+        "incorrecta1": "reduce()",
+        "incorrecta2": "map()",
+        "incorrecta3": "split()"
+    },
+    {
+        "pregunta": "Declara una variable de alcance local con ámbito de bloque",
+        "respuesta": "Let",
+        "incorrecta1": "Var",
+        "incorrecta2": "Const",
+        "incorrecta3": "Array"
+    },
+    {
+        "pregunta": "Devuelve un string JSON correspondiente al valor especificado",
+        "respuesta": "JSON.stringify()",
+        "incorrecta1": "JSON.parse()",
+        "incorrecta2": "Const",
+        "incorrecta3": "Array"
+    },
+    {
+        "pregunta": "Es un valor que representa Not-A-Number",
+        "respuesta": "NaN",
+        "incorrecta1": "NotNaN",
+        "incorrecta2": "!Nan",
+        "incorrecta3": "naN"
+    },
+    {
+        "pregunta": "Convierte un argumento de tipo cadena y devuelve un entero",
+        "respuesta": "parseInt()",
+        "incorrecta1": "toString()",
+        "incorrecta2": "isNaN()",
+        "incorrecta3": "parseFloat()"
+    }
+]
