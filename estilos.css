@@ -18,13 +18,18 @@ body {
 
 .iniciar-quiz {
     width: 50%;
-    height: 400px;
+    height: 500px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    font-size: 20px;
+}
+
+.iniciar-quiz p {
+    text-align: center;
 }
 
 .btn-iniciar-quiz {
@@ -36,6 +41,7 @@ body {
     color: #fff;
     transition: .5s;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .btn-iniciar-quiz:hover {
@@ -156,5 +162,17 @@ body {
     }
     .final-section {
         width: 70%;
+    }
+    .iniciar-quiz {
+        width: 80%;
+    }
+}
+
+@media (max-width:400px) {
+    .iniciar-quiz {
+        font-size: 18px;
+    }
+    .btn-iniciar-quiz {
+        font-size: 14px;
     }
 }
